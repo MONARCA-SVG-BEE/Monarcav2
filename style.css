@@ -173,3 +173,17 @@ footer strong{color:var(--gold);letter-spacing:4px}
   .hero h2{font-size:22px}
   .hero-image-frame{min-height:360px}
 }
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background-image: url("assets/marca/marca-agua-vikinga.png");
+    background-repeat: repeat;
+    background-size: 260px;
+
+    opacity: 0.018;
+
+    pointer-events: none;
+    z-index: 0;
+}
