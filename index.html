@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Monarca Hidromiel - Hidromiel artesanal boliviana." />
+  <title>Monarca Hidromiel | Bolivia</title>
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio">
+      <img src="assets/marca/logo-monarca-nuevo.png" alt="Logo Monarca" onerror="this.style.display='none'">
+      <span>MONARCA</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menú" onclick="toggleMenu()">☰</button>
+
+    <nav id="navLinks" class="nav-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#historia">Nuestra historia</a>
+      <a href="#productos">Productos</a>
+      <a href="#proximamente">Próximamente</a>
+      <a href="#nuevos">Nuevos productos</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">HIDROMIEL ARTESANAL BOLIVIANA</span>
+        <h1>MONARCA</h1>
+        <h2>Miel · Tradición · Carácter</h2>
+        <p>
+          Sabores elaborados a partir de miel, creatividad y una identidad propia.
+          Descubre nuestra colección de hidromieles, ediciones especiales y destilados.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#productos">Ver productos</a>
+          <a class="btn ghost" href="#proximamente">Dónde estaremos</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-frame">
+          <img src="assets/marca/portada-monarca.jpg" alt="Monarca Hidromiel" onerror="this.style.display='none'">
+          <div class="placeholder">
+            <strong>IMAGEN DE PORTADA</strong>
+            <span>Reemplaza: assets/marca/portada-monarca.jpg</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="historia" class="section">
+      <div class="section-heading">
+        <span>NUESTRA ESENCIA</span>
+        <h2>Nuestra historia</h2>
+        <p>
+          Monarca nace para transformar la miel en experiencias diferentes,
+          combinando tradición, innovación y sabores con personalidad propia.
+        </p>
+      </div>
+    </section>
+
+    <section id="productos" class="section section-dark">
+      <div class="section-heading">
+        <span>COLECCIÓN MONARCA</span>
+        <h2>Nuestros productos</h2>
+        <p>Haz clic en cada producto para conocer su presentación. Las imágenes quedan listas para que las reemplaces.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card"><div class="product-image"><img src="assets/productos/hidromiel-tradicional.jpg" alt="Hidromiel Tradicional" onerror="this.style.display='none'"><span>hidromiel-tradicional.jpg</span></div><div class="product-info"><span class="tag">Hidromiel</span><h3>Hidromiel Tradicional</h3><p>La expresión clásica de Monarca, elaborada para resaltar el carácter natural de la miel.</p></div></article>
+        <article class="product-card"><div class="product-image"><img src="assets/productos/hidromiel-sangre-de-dragon.jpg" alt="Hidromiel Sangre de Dragón" onerror="this.style.display='none'"><span>hidromiel-sangre-de-dragon.jpg</span></div><div class="product-info"><span class="tag">Hidromiel</span><h3>Sangre de Dragón</h3><p>Una propuesta intensa, frutal y con una identidad visual potente.</p></div></article>
+        <article class="product-card"><div class="product-image"><img src="assets/productos/hidromiel-raiz-de-oro.jpg" alt="Hidromiel Raíz de Oro" onerror="this.style.display='none'"><span>hidromiel-raiz-de-oro.jpg</span></div><div class="product-info"><span class="tag">Hidromiel</span><h3>Raíz de Oro</h3><p>Hidromiel con perfil especiado y carácter fresco inspirado en el jengibre.</p></div></article>
+        <article class="product-card"><div class="product-image"><img src="assets/productos/hidromiel-flor-de-jamaica.jpg" alt="Hidromiel Flor de Jamaica" onerror="this.style.display='none'"><span>hidromiel-flor-de-jamaica.jpg</span></div><div class="product-info"><span class="tag">Hidromiel</span><h3>Flor de Jamaica</h3><p>Una hidromiel aromática, fresca y de personalidad floral.</p></div></article>
+        <article class="product-card"><div class="product-image"><img src="assets/productos/hidromiel-dark.jpg" alt="Hidromiel Dark" onerror="this.style.display='none'"><span>hidromiel-dark.jpg</span></div><div class="product-info"><span class="tag">Hidromiel</span><h3>Hidromiel Dark</h3><p>Una versión de perfil profundo, intenso y elegante.</p></div></article>
+        <article class="product-card"><div class="product-image"><img src="assets/productos/hidromiel-tentacion.jpg" alt="Hidromiel Tentación" onerror="this.style.display='none'"><span>hidromiel-tentacion.jpg</span></div><div class="product-info"><span class="tag">Hidromiel</span><h3>Tentación</h3><p>Una combinación pensada para un perfil dulce, aromático y diferente.</p></div></article>
+        <article class="product-card"><div class="product-image"><img src="assets/productos/hidromiel-valkiria.jpg" alt="Hidromiel Valkiria" onerror="this.style.display='none'"><span>hidromiel-valkiria.jpg</span></div><div class="product-info"><span class="tag">Hidromiel</span><h3>Valkiria</h3><p>Inspirada en frutos del bosque y una personalidad intensa.</p></div></article>
+        <article class="product-card"><div class="product-image"><img src="assets/productos/hidromiel-peach.jpg" alt="Hidromiel Peach" onerror="this.style.display='none'"><span>hidromiel-peach.jpg</span></div><div class="product-info"><span class="tag">Hidromiel</span><h3>Peach</h3><p>Una propuesta frutal, suave y refrescante con perfil de durazno.</p></div></article>
+        <article class="product-card featured"><div class="product-image"><img src="assets/productos/hidromiel-anejo.jpg" alt="Hidromiel Añejo" onerror="this.style.display='none'"><span>hidromiel-anejo.jpg</span></div><div class="product-info"><span class="tag special">Especial</span><h3>Hidromiel Añejo</h3><p>Una propuesta especial con mayor complejidad y perfil de guarda.</p></div></article>
+        <article class="product-card featured"><div class="product-image"><img src="assets/productos/destilado-de-hidromiel.jpg" alt="Destilado de Hidromiel" onerror="this.style.display='none'"><span>destilado-de-hidromiel.jpg</span></div><div class="product-info"><span class="tag special">Destilado</span><h3>Destilado de Hidromiel</h3><p>Una expresión más intensa de Monarca obtenida a partir de hidromiel.</p></div></article>
+        <article class="product-card featured"><div class="product-image"><img src="assets/productos/hidromiel-premium.jpg" alt="Hidromiel Premium" onerror="this.style.display='none'"><span>hidromiel-premium.jpg</span></div><div class="product-info"><span class="tag special">Premium</span><h3>Hidromiel Premium</h3><p>Nuestra línea de presentación especial, pensada para ocasiones y regalos.</p></div></article>
+      </div>
+    </section>
+
+    <section id="proximamente" class="section upcoming">
+      <div class="section-heading">
+        <span>PRÓXIMAMENTE</span>
+        <h2>¿Dónde estaremos?</h2>
+        <p>Este apartado está preparado para publicar la próxima feria, evento o punto de degustación.</p>
+      </div>
+
+      <div class="event-card">
+        <div class="event-image">
+          <img src="assets/eventos/proximo-evento.jpg" alt="Próximo evento Monarca" onerror="this.style.display='none'">
+          <div class="placeholder">
+            <strong>IMAGEN DEL EVENTO</strong>
+            <span>assets/eventos/proximo-evento.jpg</span>
+          </div>
+        </div>
+        <div class="event-info">
+          <span class="tag special">Próximamente</span>
+          <h3>Nombre del evento</h3>
+          <p class="event-meta">📍 Lugar por confirmar</p>
+          <p class="event-meta">📅 Fecha por confirmar</p>
+          <p class="event-meta">🕒 Horario por confirmar</p>
+          <p>Reemplaza estos datos cada vez que Monarca participe en una nueva feria o evento.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="nuevos" class="section section-dark">
+      <div class="section-heading">
+        <span>LO QUE VIENE</span>
+        <h2>Nuevos productos</h2>
+        <p>Una pestaña para presentar lanzamientos, pruebas, ediciones limitadas o productos en desarrollo.</p>
+      </div>
+
+      <div class="new-grid">
+        <article class="new-card"><div class="new-image"><img src="assets/nuevos/nuevo-producto-1.jpg" alt="Nuevo producto 1" onerror="this.style.display='none'"><span>nuevo-producto-1.jpg</span></div><h3>Próximo lanzamiento</h3><p>Espacio preparado para el siguiente producto Monarca.</p></article>
+        <article class="new-card"><div class="new-image"><img src="assets/nuevos/nuevo-producto-2.jpg" alt="Nuevo producto 2" onerror="this.style.display='none'"><span>nuevo-producto-2.jpg</span></div><h3>Edición especial</h3><p>Utiliza este espacio para una edición limitada o producto estacional.</p></article>
+        <article class="new-card"><div class="new-image"><img src="assets/nuevos/nuevo-producto-3.jpg" alt="Nuevo producto 3" onerror="this.style.display='none'"><span>nuevo-producto-3.jpg</span></div><h3>En desarrollo</h3><p>Presenta aquí una novedad sin revelar todos sus detalles.</p></article>
+      </div>
+    </section>
+
+    <section id="galeria" class="section">
+      <div class="section-heading">
+        <span>EXPERIENCIAS MONARCA</span>
+        <h2>Galería</h2>
+        <p>Puedes usar esta sección para fotografías de productos, ferias, degustaciones y clientes.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div>FOTO 1</div><div>FOTO 2</div><div>FOTO 3</div>
+        <div>FOTO 4</div><div>FOTO 5</div><div>FOTO 6</div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <span class="eyebrow">CONTACTO</span>
+      <h2>Descubre Monarca</h2>
+      <p>Actualiza aquí tu WhatsApp y tus redes sociales antes de publicar.</p>
+      <div class="contact-actions">
+        <a class="btn primary" href="https://wa.me/59100000000" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn ghost" href="#" target="_blank" rel="noopener">Facebook</a>
+        <a class="btn ghost" href="#" target="_blank" rel="noopener">Instagram</a>
+        <a class="btn ghost" href="#" target="_blank" rel="noopener">TikTok</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>MONARCA</strong>
+    <span>Hidromiel artesanal boliviana</span>
+    <span>© 2026 Monarca</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

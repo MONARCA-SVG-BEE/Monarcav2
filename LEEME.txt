@@ -1,0 +1,30 @@
+MONARCA V2 - TEMA AZUL NOCHE
+
+CAMBIOS REALIZADOS
+1. Color general cambiado a azul noche.
+2. Letras en tono dorado.
+3. Fondo con patrón tipo panal.
+4. Tipografía nueva:
+   - Títulos: Cinzel
+   - Texto general: Inter
+5. Logo actualizado para usar este archivo:
+   assets/marca/logo-monarca-nuevo.png
+
+QUÉ DEBES HACER AHORA
+1. Coloca tu nuevo logo en:
+   assets/marca/logo-monarca-nuevo.png
+
+2. Si quieres cambiar la imagen principal:
+   assets/marca/portada-monarca.jpg
+
+3. Los archivos de productos conservan los mismos nombres del paquete anterior.
+
+4. Puedes editar textos en index.html
+
+5. Sube esta carpeta completa a Vercel Drop.
+
+ARCHIVOS IMPORTANTES
+- index.html
+- style.css
+- script.js
+- vercel.json
