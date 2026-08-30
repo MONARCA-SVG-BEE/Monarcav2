@@ -182,7 +182,7 @@ body::before {
     background-repeat: repeat;
     background-size: 260px;
 
-    opacity: 0.018;
+    opacity: 0.8;
 
     pointer-events: none;
     z-index: 0;
